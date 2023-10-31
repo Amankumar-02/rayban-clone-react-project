@@ -88,8 +88,12 @@ html, body{
   /* background-color: red; */
   overflow: hidden;
 }
+#heroLeft .elem h1:nth-child(1){
+  top: 0;
+}
 #heroLeft .elem h1{
   position: absolute;
+  top: 100%;
   left: 0;
   line-height: 0.9;
   font-family: 'kajiro';
